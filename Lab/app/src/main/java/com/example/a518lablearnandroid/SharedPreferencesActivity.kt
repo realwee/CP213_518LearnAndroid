@@ -32,7 +32,7 @@ class SharedPreferencesActivity : ComponentActivity() {
 
         enableEdgeToEdge()
         setContent {
-
+            Text(text = "Hello SharedPreferences")
         }
     }
 }
