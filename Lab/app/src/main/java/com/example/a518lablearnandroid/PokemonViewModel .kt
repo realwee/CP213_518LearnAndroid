@@ -48,3 +48,5 @@ class PokemonViewModel : ViewModel() {
     }
 }
 
+//เช็คชือ่ 10/3
+
