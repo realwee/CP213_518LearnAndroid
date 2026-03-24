@@ -3,6 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- สิทธิ์อ่านไฟล์สำหรับ Android 12 ลงไป (API <= 32) -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <!-- สิทธิ์อ่านรูปภาพสำหรับ Android 13 ขึ้นไป (API >= 33) -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 
     <application
         android:allowBackup="true"
@@ -31,6 +37,11 @@
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
         </activity>
+        <activity
+            android:name=".GalleryActivity"
+            android:exported="false"
+            android:label="Gallery &amp; Permission"
+            android:theme="@style/Theme._518LabLearnAndroid" />
         <activity
             android:name=".ListActivity3"
             android:exported="false" />
