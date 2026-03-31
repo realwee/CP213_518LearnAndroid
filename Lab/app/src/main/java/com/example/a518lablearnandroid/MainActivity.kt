@@ -125,7 +125,7 @@ fun RBGCardView (onNextActivity: () -> Unit) {
                 }) {
                     Image(
                         painter = painterResource(id=R.drawable.baseline_arrow_upward_24),
-                        contentDescription = "up",
+                        contentDescription = "str_up",
                         modifier = Modifier.size(20.dp)
                     )
                 }
@@ -137,7 +137,7 @@ fun RBGCardView (onNextActivity: () -> Unit) {
                 }) {
                     Image(
                         painter = painterResource(id=R.drawable.outline_arrow_downward_24),
-                        contentDescription = "up",
+                        contentDescription = "str_down",
                         modifier = Modifier.size(20.dp)
                     )
                 }
@@ -154,7 +154,7 @@ fun RBGCardView (onNextActivity: () -> Unit) {
                 }) {
                     Image(
                         painter = painterResource(id=R.drawable.baseline_arrow_upward_24),
-                        contentDescription = "up",
+                        contentDescription = "agi_up",
                         modifier = Modifier.size(20.dp)
                     )
                 }
@@ -165,7 +165,7 @@ fun RBGCardView (onNextActivity: () -> Unit) {
                 }) {
                     Image(
                         painter = painterResource(id=R.drawable.outline_arrow_downward_24),
-                        contentDescription = "up",
+                        contentDescription = "agi_down",
                         modifier = Modifier.size(20.dp)
                     )
                 }
@@ -177,7 +177,7 @@ fun RBGCardView (onNextActivity: () -> Unit) {
                 }) {
                     Image(
                         painter = painterResource(id=R.drawable.baseline_arrow_upward_24),
-                        contentDescription = "up",
+                        contentDescription = "int_up",
                         modifier = Modifier.size(20.dp)
                     )
                 }
@@ -188,7 +188,7 @@ fun RBGCardView (onNextActivity: () -> Unit) {
                 }) {
                     Image(
                         painter = painterResource(id=R.drawable.outline_arrow_downward_24),
-                        contentDescription = "up",
+                        contentDescription = "int_down",
                         modifier = Modifier.size(20.dp)
                     )
                 }
@@ -199,4 +199,3 @@ fun RBGCardView (onNextActivity: () -> Unit) {
 }
 //เช็คชื่อ cp213 24/2
 //ดช็คชื่อ  31/3
-
