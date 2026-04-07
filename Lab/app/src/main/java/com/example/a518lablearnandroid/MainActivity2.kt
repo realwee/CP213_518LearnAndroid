@@ -83,3 +83,4 @@ fun LifecycleComponent() {
 fun GreetingPreview2() {
     LifecycleDemo()
 }
+//เช็คชื่อ 7/4
