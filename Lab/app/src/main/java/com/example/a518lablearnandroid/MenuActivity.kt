@@ -50,6 +50,11 @@ class MenuActivity : ComponentActivity() {
                 }) {
                     Text("SensorActivity")
                 }
+                Button(onClick = {
+                    startActivity(Intent(this@MenuActivity, Part2Activity::class.java))
+                }) {
+                    Text("Part2 - Contact List (Sticky Header + Pagination)")
+                }
             }
         }
     }
